@@ -2,9 +2,12 @@
  
 This is an express project template containing the following
 
+- Typescript
 - Eslint
 - Prettier
-- Typescript
+- Mocha
+- Chai
+- Gitub Actions
 
 The src folder should contain all the logic code including routes, authentication, database connection, database mapping, services etc.
 

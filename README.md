@@ -11,6 +11,17 @@ This is an express project template containing the following
 
 The src folder should contain all the logic code including routes, authentication, database connection, database mapping, services etc.
 
+My file structure
+
+Root
+
+- src
+  - routes
+  - services
+  - interfaces
+  - middlewares
+- test
+
 to start the project please run
 
 ```bash

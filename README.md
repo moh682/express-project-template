@@ -30,6 +30,8 @@ To run the test
 npm run test
 ```
 
+This project has also github actions for the one who wants it
+
 To use the project for yourself remember to delete the git folder and push the project to your own github repo
 
 Everyone are welcome to fork and use the project.

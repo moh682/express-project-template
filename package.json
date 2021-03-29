@@ -6,7 +6,8 @@
   "scripts": {
     "start:dev": "ENVIRONMENT=development nodemon -e ts,js --exec ts-node -r tsconfig-paths/register ./src/server.ts",
     "test": "ENVIRONMENT=test mocha -r ts-node/register -r tsconfig-paths/register test/**.test.ts --exit;",
-    "eslint": "eslint"
+    "eslint": "eslint src/{**,}/**.ts test/**.test.ts",
+    "build": "tsc --build tsconfig.json"
   },
   "keywords": [],
   "author": "screenchok@gmail.com",

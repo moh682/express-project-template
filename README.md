@@ -21,4 +21,6 @@ incase you want to fix issues with eslint, run the following
 npm run eslint --fix
 ```
 
+To use the project for yourself remember to delete the git folder and push the project to your own github repo
+
 Everyone are welcome to fork and use the project. 

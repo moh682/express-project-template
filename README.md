@@ -35,6 +35,15 @@ incase you want to fix issues with eslint, run the following
 npm run eslint
 ```
 
+to enable prettier on autosave please add the following inside settings.json
+
+```json
+"editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
+```
+
 To run the test
 
 ```bash
